@@ -27,7 +27,7 @@ st.set_page_config(page_title="Olympics World Records by Country",
                     layout="wide",
                     initial_sidebar_state="expanded")
 
-px.set_mapbox_access_token(open('./.mapbox_token').read())
+px.set_mapbox_access_token(open('./mapbox_token').read())
 st.title("Olympics World Records by Country")
 
 with st.sidebar:
